@@ -1,1 +1,1 @@
-../arch/x86/configs/config-wsl
+config-wsl.ktls_sockmap
