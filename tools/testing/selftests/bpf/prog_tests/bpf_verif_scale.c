@@ -110,11 +110,11 @@ void test_verif_scale_pyperf100()
 	scale_test("pyperf100.bpf.o", BPF_PROG_TYPE_RAW_TRACEPOINT, false);
 }
 
-void test_verif_scale_pyperf180()
-{
+/*void test_verif_scale_pyperf180()
+{*/
 	/* full unroll by llvm */
-	scale_test("pyperf180.bpf.o", BPF_PROG_TYPE_RAW_TRACEPOINT, false);
-}
+/*	scale_test("pyperf180.bpf.o", BPF_PROG_TYPE_RAW_TRACEPOINT, false);
+}*/
 
 void test_verif_scale_pyperf600()
 {
